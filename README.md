@@ -29,7 +29,7 @@ To get this project up and running on your local machine, follow these steps:
 
 
    ```bash
-   git clone https://github.com/DevelopmentHiring/OguzhanDursun.git
+   git clone https://github.com/oguzdursun06/checkout-app.git
    ```
 Navigate to the project folder.
    ```bash
