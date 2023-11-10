@@ -1,0 +1,39 @@
+server:
+  servlet:
+    context-path: /api/
+application:
+  cart:
+    maximumUniqueItemCount: 10
+    maximumTotalItemCount: 30
+    maximumTotalPrice: 500000
+  digitalItem:
+    categoryId: 7889
+    maximumCount: 5
+  defaultItem:
+    maximumCount: 10
+    vasCategories: 1001,3004
+  vasItem:
+    maximumCount: 3
+    categoryId: 3242
+    sellerId: 5003
+  promotion:
+    sameSeller:
+      id: 9909
+      discountPercentage: 10
+    category:
+      id: 5676
+      categoryId: 3003
+      discountPercentage: 5
+    totalPrice:
+      id: 1232
+      small:
+        price: 5000
+        discount: 250
+      medium:
+        price: 10000
+        discount: 500
+      large:
+        price: 50000
+        discount: 1000
+      xlarge:
+        discount: 2000
